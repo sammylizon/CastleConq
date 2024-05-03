@@ -2,17 +2,25 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HelloWorld : MonoBehaviour
+public class BirdScript : MonoBehaviour
 {
+    public Rigidbody2D rb;
+    public float jumpSpeed; 
+
     // Start is called before the first frame update
     void Start()
     {
-        print("Sammy Lizon");
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            rb.velocity = Vector2.up * jumpSpeed;
+        }
+
+       
     }
 }
