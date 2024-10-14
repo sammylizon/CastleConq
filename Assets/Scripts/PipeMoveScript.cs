@@ -30,7 +30,7 @@ public class PipeMoveScript : MonoBehaviour
 
     public void MoveSpeed(float moveSpeed)
     {
-        spawner.position += (Vector3.left * moveSpeed) * Time.deltaTime;
+        spawner.position += Vector3.left * moveSpeed * Time.deltaTime;
         speed = moveSpeed;
 
     }
