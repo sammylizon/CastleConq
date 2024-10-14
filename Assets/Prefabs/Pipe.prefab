@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8233128024428250438}
   m_Layer: 0
   m_Name: Top Pipe
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -234,7 +234,7 @@ GameObject:
   - component: {fileID: 6632940612550176284}
   m_Layer: 0
   m_Name: Bottom Pipe
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -398,5 +398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2a5acf523594490ba49b80266e206a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0
   deadZone: -45
   spawner: {fileID: 5770664956779360550}
+  logicman: {fileID: 0}
